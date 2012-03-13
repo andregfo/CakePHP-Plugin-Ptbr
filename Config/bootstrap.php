@@ -122,3 +122,7 @@ Cache::config('default', array('engine' => 'File'));
  * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
  *
  */
+
+CakePlugin::load('CakePtbr');
+
+require CakePlugin::path('CakePtbr') . DS . 'Config' . DS . 'bootstrap.php';
